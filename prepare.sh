@@ -1,5 +1,7 @@
 cd ..
-echo "Cloning SIGLA repo"
+echo "Cloning SIGLA repo ..."
 git clone https://github.com/consiglionazionaledellericerche/sigla-main.git
-mv cloudbuild.yam sigla-main
+echo "Moving cloudbuild.yaml in target folder ..."
+mv cloudbuild.yaml sigla-main/
+echo "Changing current folder ..."
 cd sigla-main
