@@ -1,3 +1,5 @@
+
+
 1- Imposta l'ID del progetto associato alla cloud shell con il seguente comando:
 
 > gcloud config set project [PROJECT_ID]
