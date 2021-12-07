@@ -8,6 +8,6 @@
 2- Lancia lo script per preparare l'ambiente 
 > . prepare.sh
 
-3- Esegui il build e il deploy dell'applicatione con il seguente comando:
+3- Esegui il build e il deploy dell'applicazione con il seguente comando:
 
 > gcloud builds submit --config cloudbuild.yaml
