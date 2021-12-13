@@ -30,8 +30,10 @@ steps:
   - '1'
   - '--set-env-vars'
   - 'THORNTAIL_PROJECT_STAGE=${_PROJECT_STAGE}'
-    - '--set-env-vars'
+  - '--set-env-vars'
   - 'LC_LL=it_IT.UTF-8,LANG=it_IT.UTF-8,LANGUAGE=it_IT:it'
+  - '--set-env-vars'
+  - 'THORNTAIL_DATASOURCES_DATA-SOURCES_SIGLA_CONNECTION-URL=${_SIGLA_DS_URL}'
   - '--no-use-http2'
   - '--no-cpu-throttling'
   - '--execution-environment'
@@ -47,5 +49,6 @@ substitutions:
     _IMAGE_NAME: sigla-cloud-run
     _GC_REGION: europe-west4
     _PROJECT_STAGE: demo-h2
+    _SIGLA_DS_URL: 
 images:
 - gcr.io/$PROJECT_ID/${_IMAGE_NAME}
