@@ -30,6 +30,8 @@ steps:
   - '1'
   - '--set-env-vars'
   - 'THORNTAIL_PROJECT_STAGE=${_PROJECT_STAGE}'
+    - '--set-env-vars'
+  - 'LC_LL=it_IT.UTF-8,LANG=it_IT.UTF-8,LANGUAGE=it_IT:it'
   - '--no-use-http2'
   - '--no-cpu-throttling'
   - '--execution-environment'
