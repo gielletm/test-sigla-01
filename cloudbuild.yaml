@@ -49,6 +49,6 @@ substitutions:
     _IMAGE_NAME: sigla-cloud-run
     _GC_REGION: europe-west4
     _PROJECT_STAGE: demo-h2
-    _SIGLA_DS_URL: 
+    _SIGLA_DS_URL: ''
 images:
 - gcr.io/$PROJECT_ID/${_IMAGE_NAME}
