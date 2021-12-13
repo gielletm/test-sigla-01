@@ -37,11 +37,12 @@ steps:
   - '--platform'
   - 'managed'
   - '--region'
-  - 'europe-west4'
+  - '${_GC_REGION}'
   - '--project'
   - '$PROJECT_ID'
 substitutions:
     _SERVICE_NAME: sigla-cloud-run
     _IMAGE_NAME: sigla-cloud-run
+    _GC_REGION: europe-west4
 images:
 - gcr.io/$PROJECT_ID/${_IMAGE_NAME}
