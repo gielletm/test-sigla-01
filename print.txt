@@ -1,5 +1,9 @@
 
 
+0- Autenticarsi su GCP con il seguente comando:
+
+> gcloud auth login
+
 1- Imposta l'ID del progetto associato alla cloud shell con il seguente comando:
 
 > gcloud config set project [PROJECT_ID]
