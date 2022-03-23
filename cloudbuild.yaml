@@ -43,8 +43,8 @@ steps:
   - '--project'
   - '$PROJECT_ID'
 substitutions:
-    _SERVICE_NAME: sigla-ng-cloud-run
-    _IMAGE_NAME: sigla-ng-cloud-run
+    _SERVICE_NAME: sigla-cloud-run
+    _IMAGE_NAME: sigla-cloud-run
     _GC_REGION: europe-west4
     _PROJECT_STAGE: demo-h2
 images:
